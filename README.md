@@ -2,6 +2,8 @@
 
 BreezeUI is a Tailwind CSS library designed to provide a set of customizable animations and components for web developers. With BreezeUI, you can easily enhance your web applications with smooth, dynamic visual effects.
 
+This is the marketing website for BreezeUI. Another repo will be created for managing the npm package.
+
 ## Features
 
 - **Custom Animations**: Use predefined animated backgrounds and components.
