@@ -1,7 +1,7 @@
 // components/Button.tsx
 import React from "react";
 
-const Button: React.FC = () => {
+const PulseButton: React.FC = () => {
   return (
     <>
       <button className="px-6 py-3 border-2 rounded-lg animate-breeze-border-fade">
@@ -11,4 +11,4 @@ const Button: React.FC = () => {
   );
 };
 
-export default Button;
+export default PulseButton;

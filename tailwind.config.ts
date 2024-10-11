@@ -16,9 +16,9 @@ const config: Config = {
         "breeze-ocean": "bgAnimation 10s ease infinite",
         "breeze-bold": "boldBgAnimation 7s ease infinite",
         "breeze-pulse": "borderPulse 7s ease infinite",
-        'breeze-border-fade': 'borderColorChange 10s ease-in-out infinite',
-        'breeze-border-rotate': 'borderRotate 4s linear infinite',
-        'border-slide': 'borderSlide 5s linear infinite',
+        "breeze-border-fade": "borderColorChange 10s ease-in-out infinite",
+        "breeze-border-rotate": "borderRotate 4s linear infinite",
+        "breeze-rotate": "rotate 10s linear infinite",
       },
       keyframes: {
         bgAnimation: {
@@ -37,27 +37,30 @@ const config: Config = {
           "100%": { borderColor: "#FF6EC7" },
         },
         borderColorChange: {
-          '0%': { borderColor: '#3490dc' },   // blue
-          '25%': { borderColor: '#38c172' },  // green
-          '50%': { borderColor: '#ffed4a' },  // yellow
-          '75%': { borderColor: '#e3342f' },  // red
-          '100%': { borderColor: '#3490dc' }, // blue again
+          "0%": { borderColor: "#3490dc" }, // blue
+          "25%": { borderColor: "#38c172" }, // green
+          "50%": { borderColor: "#ffed4a" }, // yellow
+          "75%": { borderColor: "#e3342f" }, // red
+          "100%": { borderColor: "#3490dc" }, // blue again
         },
         borderRotate: {
-          '0%': { borderColor: '#3490dc transparent transparent transparent' }, // top blue
-          '25%': { borderColor: 'transparent #38c172 transparent transparent' }, // right green
-          '50%': { borderColor: 'transparent transparent #ffed4a transparent' }, // bottom yellow
-          '75%': { borderColor: 'transparent transparent transparent #e3342f' }, // left red
-          '100%': { borderColor: '#3490dc transparent transparent transparent' }, // back to top blue
+          "0%": { borderColor: "#3490dc transparent transparent transparent" }, // top blue
+          "25%": { borderColor: "transparent #38c172 transparent transparent" }, // right green
+          "50%": { borderColor: "transparent transparent #ffed4a transparent" }, // bottom yellow
+          "75%": { borderColor: "transparent transparent transparent #e3342f" }, // left red
+          "100%": {
+            borderColor: "#3490dc transparent transparent transparent",
+          }, // back to top blue
         },
         borderSlide: {
-          '0%': { backgroundPosition: '0% 50%' },
-          '100%': { backgroundPosition: '200% 50%' },
+          "0%": { backgroundPosition: "0% 50%" },
+          "100%": { backgroundPosition: "200% 50%" },
+        },
+        rotate: {
+          "0%": { transform: "rotate(0deg) scale(10)" },
+          "100%": { transform: "rotate(-360deg) scale(10)" },
         },
       },
-      // backgroundSize: {
-      //   "400%": "400% 400%",
-      // },
     },
   },
   plugins: [],
