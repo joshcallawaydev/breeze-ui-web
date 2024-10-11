@@ -19,6 +19,10 @@ const config: Config = {
         "breeze-border-fade": "borderColorChange 10s ease-in-out infinite",
         "breeze-border-rotate": "borderRotate 4s linear infinite",
         "breeze-rotate": "rotate 10s linear infinite",
+        'gradient-move': 'gradient 10s ease infinite',
+      },
+      backgroundImage: {
+        'gradient-text': 'linear-gradient(80deg, #ff6ec4, #7873f5, #3edce0, #ff6ec4)',
       },
       keyframes: {
         bgAnimation: {
@@ -59,6 +63,14 @@ const config: Config = {
         rotate: {
           "0%": { transform: "rotate(0deg) scale(10)" },
           "100%": { transform: "rotate(-360deg) scale(10)" },
+        },
+        gradient: {
+          '0%, 100%': {
+            backgroundPosition: '0% 50%',
+          },
+          '50%': {
+            backgroundPosition: '200% 50%',
+          },
         },
       },
     },
