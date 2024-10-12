@@ -14,11 +14,28 @@ const Navbar: React.FC = () => {
         <div className="md:hidden flex items-center">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="focus:outline-none"
+            className="relative w-8 h-8 focus:outline-none"
           >
-            <h1 className="font-semibold text-[#fff]">ICON</h1>
+            {/* First Line */}
+            <span
+              className={`block absolute w-full h-[3px] bg-white transform transition-all duration-300 ease-in-out ${
+                isOpen
+                  ? "rotate-45 top-1/2 -translate-y-1/2"
+                  : "rotate-0 top-2"
+              }`}
+            ></span>
+
+            {/* Second Line */}
+            <span
+              className={`block absolute w-full h-[3px] bg-white transform transition-all duration-300 ease-in-out ${
+                isOpen
+                  ? "-rotate-45 top-1/2 -translate-y-1/2"
+                  : "rotate-0 top-4"
+              }`}
+            ></span>
           </button>
         </div>
+
         {/* Logo */}
         <div className="">
           <Logo />

@@ -22,7 +22,7 @@ const config: Config = {
         'gradient-move': 'gradient 10s ease infinite',
       },
       backgroundImage: {
-        'gradient-text': 'linear-gradient(80deg, #ff6ec4, #7873f5, #3edce0, #ff6ec4)',
+        'gradient-text': 'linear-gradient(80deg, #CF4D6F, #FFC099, #78FFD6, #9F84BD)',
       },
       keyframes: {
         bgAnimation: {
@@ -69,7 +69,7 @@ const config: Config = {
             backgroundPosition: '0% 50%',
           },
           '50%': {
-            backgroundPosition: '200% 50%',
+            backgroundPosition: '100% 50%',
           },
         },
       },
