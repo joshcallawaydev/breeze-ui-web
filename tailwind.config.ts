@@ -41,11 +41,11 @@ const config: Config = {
           "100%": { borderColor: "#FF6EC7" },
         },
         borderColorChange: {
-          "0%": { borderColor: "#3490dc" }, // blue
-          "25%": { borderColor: "#38c172" }, // green
-          "50%": { borderColor: "#ffed4a" }, // yellow
-          "75%": { borderColor: "#e3342f" }, // red
-          "100%": { borderColor: "#3490dc" }, // blue again
+          "0%": { borderColor: "#ff914d" }, // blue
+          "25%": { borderColor: "#6BA292" }, // green
+          "50%": { borderColor: "#35CE8D" }, // yellow
+          "75%": { borderColor: "#BCD8B7" }, // red
+          "100%": { borderColor: "#ff914d`" }, // blue again
         },
         borderRotate: {
           "0%": { borderColor: "#3490dc transparent transparent transparent" }, // top blue

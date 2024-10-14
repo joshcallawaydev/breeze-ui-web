@@ -1,11 +1,16 @@
-// components/Button.tsx
 import React from "react";
 
-const PulseButton: React.FC = () => {
+interface PulseButtonProps {
+  title: string;
+}
+
+// 0B0909
+
+const PulseButton: React.FC<PulseButtonProps> = ({ title }) => {
   return (
     <>
-      <button className="px-6 py-3 border-2 rounded-lg animate-breeze-border-fade">
-        Animated Border Button
+      <button className="px-6 py-3 border-4 rounded-lg border-[#ff914d] bg-[#ff914d] hover:animate-breeze-border-fade text-[#fff] font-bold uppercase">
+        {title}
       </button>
     </>
   );
