@@ -11,6 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-orange': '#FFA500',
+        'custom-deep-orange': '#FF4500',
       },
       animation: {
         "breeze-ocean": "bgAnimation 10s ease infinite",

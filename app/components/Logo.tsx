@@ -9,7 +9,8 @@ const Logo: React.FC = () => {
           src="/breeze_ui-min.png"
           width={160}
           height={100}
-          alt="Picture of the author"
+          style={{width: "auto", height: "auto"}}
+          alt="Picture of the breeze ui logo"
         />
       </a>
     </div>

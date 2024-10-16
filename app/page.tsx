@@ -17,6 +17,7 @@ export default function Home() {
             width={90}
             height={50}
             className="inline-block mr-2"
+            style={{ width: "auto", height: "auto" }}
           />
           is a dynamic library of animations built with Tailwind CSS. Create
           beautiful, fluid, and interactive web experiences with ease. Available
@@ -24,7 +25,17 @@ export default function Home() {
           Backgrounds and Text.
         </p>
         <div className="w-full md:w-1/3">
-          <PulseButton title="Browse" />
+          {/* <PulseButton title="Browse" /> */}
+          {/* <button className="relative px-6 py-3 bg-[#222327] text-[#fff] border-2 border-[#222327] rounded-lg overflow-hidden hover:bg-gradient-to-r hover:from-[#FFA500] hover:to-[#FF4500] transition-colors duration-500 ease-out">
+            Browse
+          </button>
+          <button className="relative px-6 py-3 text-[#fff] border-2 border-[#222327] rounded-lg bg-[#222327] overflow-hidden hover:bg-right hover:text-[#fff] transition-all duration-500 ease-out bg-gradient-to-r from-[#FFA500] to-[#222327] bg-[length:200%_100%]">
+            Browse
+          </button> */}
+          <button className="relative px-6 py-3 uppercase text-white border-2 border-[#222327] rounded-lg bg-[#222327] overflow-hidden hover:text-[#222327] transition-all duration-500 ease-out group">
+            <span className="relative z-10">browse</span>
+            <span className="absolute inset-0 bg-[#ff914d] transition-transform transform translate-x-[-100%] group-hover:translate-x-0 duration-500 ease-in-out"></span>
+          </button>
         </div>
       </div>
     </div>
