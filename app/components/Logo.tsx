@@ -7,8 +7,8 @@ const Logo: React.FC = () => {
       <a href="/">
         <Image
           src="/breeze_ui-min.png"
-          width={160}
-          height={100}
+          width={120}
+          height={70}
           style={{width: "auto", height: "auto"}}
           alt="Picture of the breeze ui logo"
         />
