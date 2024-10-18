@@ -1,4 +1,4 @@
-import PulseButton from "./components/PulseButton";
+// import PulseButton from "./components/PulseButton";
 // import ConicButton from "./components/ConicButton";
 import Navbar from "./components/Navbar";
 import HeroTextOne from "./components/HeroTextOne";
